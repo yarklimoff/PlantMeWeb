@@ -1,0 +1,31 @@
+mat-toolbar {
+  justify-content: space-between;
+  background: #90ee02;
+}
+
+.logoContainer {
+  text-decoration: none;
+  width: 130px;
+  border: solid black 2px;
+  height: 100%;
+
+}
+
+.logoContainer:visited {
+  color: black;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.content {
+  padding: 60px;
+}
+
