@@ -37,7 +37,9 @@
               "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/fontawesome/all.js"
+            ]
           },
           "configurations": {
             "production": {

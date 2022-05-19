@@ -6,22 +6,21 @@ mat-toolbar {
 .logoContainer {
   text-decoration: none;
   width: 130px;
-  border: solid black 2px;
   height: 100%;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logoContainer:visited {
   color: black;
 }
 
-.logo {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
+.logoContainer p {
+  margin: auto;
 }
 
-.logo img {
+.logoContainer img {
   height: 50px;
 }
 

@@ -1,14 +1,12 @@
 <mat-toolbar>
-  <a routerLink="home" class="logoContainer">
-    <div class="logo">
+  <a routerLink="/home" class="logoContainer">
       <img src="assets/logo.png" alt="logo">
       <p>PlantMe</p>
-    </div>
   </a>
 
 
   <ng-container *ngIf="authService.currentUser$ | async as user; else loginButton">
-    <button mat-button>
+    <button mat-button [matMenuTriggerFor]="userMenu">
       <mat-icon>account_circle</mat-icon>
       {{user.displayName}}
       <mat-icon>expand_more</mat-icon>
@@ -28,5 +26,8 @@
 </div>
 
 <mat-menu #userMenu='matMenu'>
-  <button mat-menu-item (click)="logout()">Logout</button>
+  <button mat-menu-item (click)="logout()">
+    <mat-icon>logout</mat-icon>
+    Logout
+  </button>
 </mat-menu>
