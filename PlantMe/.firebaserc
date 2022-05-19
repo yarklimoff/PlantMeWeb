@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "plantme-5875a": {
+      "hosting": {
+        "PlantMe": [
+          "plantme-5875a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "plantme-5875a"
+  }
+}
