@@ -24,6 +24,8 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
 import { HotToastModule } from '@ngneat/hot-toast';
 import {MatMenuModule} from "@angular/material/menu";
 import {HttpClientModule} from "@angular/common/http";
+import { WeatherComponent } from './components/weather/weather.component';
+import {MatSelectModule} from "@angular/material/select";
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import {HttpClientModule} from "@angular/common/http";
     LandingComponent,
     LoginComponent,
     HomeComponent,
-    SignUpComponent
+    SignUpComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +56,8 @@ import {HttpClientModule} from "@angular/common/http";
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     HotToastModule.forRoot(),
-    MatMenuModule
+    MatMenuModule,
+    MatSelectModule
 
   ],
   providers: [{provide: TUI_SANITIZER, useClass: NgDompurifySanitizer}],

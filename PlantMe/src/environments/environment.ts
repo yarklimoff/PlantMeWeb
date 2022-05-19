@@ -12,7 +12,8 @@ export const environment = {
     messagingSenderId: '12645099011',
     measurementId: 'G-ZZ0VF5T3YE',
   },
-  production: false,
+  production: true,
+  openWeatherApiKey: '9ee9bbad56fd75554bda41e6ee7ef482'
 };
 
 /*
