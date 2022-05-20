@@ -26,6 +26,7 @@ import {MatMenuModule} from "@angular/material/menu";
 import {HttpClientModule} from "@angular/common/http";
 import { WeatherComponent } from './components/weather/weather.component';
 import {MatSelectModule} from "@angular/material/select";
+import { PlantsComponent } from './components/plants/plants.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatSelectModule} from "@angular/material/select";
     LoginComponent,
     HomeComponent,
     SignUpComponent,
-    WeatherComponent
+    WeatherComponent,
+    PlantsComponent
   ],
   imports: [
     BrowserModule,
