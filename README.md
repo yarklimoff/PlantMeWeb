@@ -3,7 +3,7 @@
 ## Курсовой проект на курсе Tinkoff Fintech School, Frontend, весна 2022
 Выполнил Климов Ярослав Валентинович
 
-https://coursework-yarklimoff.vercel.app
+https://plant-me-web.vercel.app/
 
 ## Описание проекта
 PlantMe - это приложение, способное облегчить процесс выращивания различных овощных культур.
